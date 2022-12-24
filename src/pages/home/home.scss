@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &-title {
+    margin: 10px 0;
+    text-align: center;
+    color: #330133;
+    span {
+      font-size: 18px;
+      font-weight: bold;
+      color :#330133;;
+    }
+    h1{
+
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+
+}

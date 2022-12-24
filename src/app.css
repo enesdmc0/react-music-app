@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  background-color: #474E68;
+}
+
+.active {
+  color: black;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/*# sourceMappingURL=app.css.map */

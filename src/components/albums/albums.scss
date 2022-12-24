@@ -1,0 +1,55 @@
+.albums {
+  border: 1px solid white;
+  display: flex;
+  background-color: #330133;
+  height: 100px;
+  &-left{
+    flex : 1;
+    display: flex;
+    img {
+      width : 100px;
+      height : auto;
+      object-fit: cover;
+    }
+  }
+  &-right{
+    flex :4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &-albumName  {
+      font-size: 25px;
+      font-weight: 600;
+      color: white;
+      text-align: center;
+      border-bottom: 1px solid gray;
+    }
+    &-name, &-plays {
+      font-size: 20px;
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .albums {
+
+    &-left{
+
+      img {
+
+      }
+    }
+    &-right{
+
+      &-albumName  {
+        font-size: 18px;
+
+      }
+      &-name, &-plays {
+        font-size: 15px;
+      }
+    }
+  }
+}

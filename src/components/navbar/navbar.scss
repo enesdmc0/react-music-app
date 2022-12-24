@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #404258;
+  padding : 0 20px;
+  border-bottom : 2px solid gray;
+
+  &-left{
+
+    &-link{
+      font-size: 30px;
+      font-weight: 700;
+      color : #330133;
+      cursor: pointer;
+      transition: all 1s ease;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+
+   &-center {
+    font-size: 30px;
+    font-weight: 700;
+    color : #330133;
+    cursor: pointer;
+  }
+  &-right {
+    width : 30px;
+    height : 30px;
+    background-color: #330133;
+    border-radius : 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+.navbarActive {
+  background-color: gray;
+  *{
+    color: white;
+  }
+}

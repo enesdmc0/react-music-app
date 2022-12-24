@@ -1,0 +1,50 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+  margin: 20px 0;
+}
+.detail-header {
+  width: 90%;
+  background-color: #330133;
+  display: flex;
+  height: 100px;
+  border: 1px solid white;
+}
+.detail-header img {
+  width: 100px;
+  object-fit: cover;
+}
+.detail-header span {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 10px 30px;
+}
+.detail-bottom {
+  display: flex;
+  width: 90%;
+  gap: 30px;
+}
+.detail-bottom-albums, .detail-bottom-tracks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail-bottom-albums h1, .detail-bottom-tracks h1 {
+  color: #330133;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 480px) {
+  .detail-bottom {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=detail.css.map */
